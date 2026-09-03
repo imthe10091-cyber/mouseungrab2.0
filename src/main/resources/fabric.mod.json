@@ -1,1 +1,24 @@
-
+{
+  "schemaVersion": 1,
+  "id": "mouseungrab",
+  "version": "${version}",
+  "name": "Mouse Ungrab",
+  "description": "Press U to release (ungrab) the mouse cursor from the Minecraft window.",
+  "authors": ["YourNameHere"],
+  "contact": {
+    "sources": "https://github.com/YourNameHere/mouse-ungrab"
+  },
+  "license": "CC0-1.0",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.mouseungrab.client.MouseUngrabClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.1",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
